@@ -480,7 +480,7 @@ const FulClear = () => {
         {/* Document Upload Modal */}
         {initiatingFor && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-            <div className="bg-white rounded-lg shadow-xl p-6 max-w-md w-full">
+            <div className="bg-white rounded-lg shadow-xl p-6 max-w-md text-green-700 w-full">
               <h3 className="text-xl font-bold mb-4">Submit Documents for {initiatingFor}</h3>
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
