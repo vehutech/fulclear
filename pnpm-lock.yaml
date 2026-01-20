@@ -20,9 +20,6 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.18
         version: 18.3.7(@types/react@18.3.27)
-      autoprefixer:
-        specifier: ^10.4.16
-        version: 10.4.23(postcss@8.5.6)
       bcryptjs:
         specifier: ^2.4.3
         version: 2.4.3
@@ -38,9 +35,6 @@ importers:
       next:
         specifier: ^14.2.0
         version: 14.2.35(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      postcss:
-        specifier: ^8.4.32
-        version: 8.5.6
       postgres:
         specifier: ^3.4.3
         version: 3.4.8
@@ -50,15 +44,22 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
-      tailwindcss:
-        specifier: ^3.4.0
-        version: 3.4.19
       typescript:
         specifier: ^5.3.3
         version: 5.9.3
       zod:
         specifier: ^3.22.4
         version: 3.25.76
+    devDependencies:
+      autoprefixer:
+        specifier: ^10.4.23
+        version: 10.4.23(postcss@8.4.31)
+      postcss:
+        specifier: ^8.4.31
+        version: 8.4.31
+      tailwindcss:
+        specifier: ^3.4.19
+        version: 3.4.19
 
 packages:
 
@@ -188,8 +189,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  baseline-browser-mapping@2.9.11:
-    resolution: {integrity: sha512-Sg0xJUNDU1sJNGdfGWhVHX0kkZ+HWcvmVymJbj6NSgZZmW/8S9Y2HQ5euytnIgakgxN6papOAWiwDo1ctFDcoQ==}
+  baseline-browser-mapping@2.9.16:
+    resolution: {integrity: sha512-KeUZdBuxngy825i8xvzaK1Ncnkx0tBmb3k8DkEuqjKRkmtvNTjey2ZsNeh8Dw4lfKvbCOu9oeNx2TKm2vHqcRw==}
     hasBin: true
 
   bcryptjs@2.4.3:
@@ -694,16 +695,16 @@ snapshots:
 
   arg@5.0.2: {}
 
-  autoprefixer@10.4.23(postcss@8.5.6):
+  autoprefixer@10.4.23(postcss@8.4.31):
     dependencies:
       browserslist: 4.28.1
       caniuse-lite: 1.0.30001762
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.6
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
-  baseline-browser-mapping@2.9.11: {}
+  baseline-browser-mapping@2.9.16: {}
 
   bcryptjs@2.4.3: {}
 
@@ -715,7 +716,7 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.11
+      baseline-browser-mapping: 2.9.16
       caniuse-lite: 1.0.30001762
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
