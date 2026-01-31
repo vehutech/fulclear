@@ -287,7 +287,7 @@ const FulClear = () => {
   // Signup View
   if (view === 'signup') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50 flex items-center justify-center p-4">
+      <div className="min-h-screen text-black bg-gradient-to-br from-green-50 to-blue-50 flex items-center justify-center p-4">
         <div className="bg-white rounded-lg shadow-xl p-8 max-w-md w-full">
           <h1 className="text-2xl font-bold text-green-700 mb-6 text-center">Student Registration</h1>
           <div className="space-y-4">
